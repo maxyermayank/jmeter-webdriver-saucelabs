@@ -1,1 +1,12 @@
 # jmeter-webdriver-saucelabs
+- Download Apache Jmeter
+- Download latest version of "JmeterPlugins-WebDriver-*.zip"
+- Copy JMeterPlugins-WebDriver/lib/ext/* to apache-jmeter-*/lib/ext/
+- Copy JMeterPlugins-WebDriver/lib/*.jar to apache-jmeter-*/lib/
+- Keep only latest versions of following jar file under apache-jmeter-*/lib/:
+  - Httpclient-.jar
+  - Httpcore-.jar
+  - Httpmime-.jar
+- Download latest [groovy-all.jar](http://mvnrepository.com/artifact/org.codehaus.groovy/groovy-all) to apache-jmeter-*/lib/
+- Start Jmeter
+- Open attached sample .jmx file and change user defined variables with your saucelab username and key
